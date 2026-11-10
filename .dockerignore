@@ -1,0 +1,11 @@
+.git
+.github
+__pycache__
+*.pyc
+.pytest_cache
+.coverage
+venv
+.venv
+tests
+models/*.joblib
+models/*.json

@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: student-placement-api
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    autoDeployTrigger: "off"   # deploys are triggered by GitHub Actions via deploy hook
